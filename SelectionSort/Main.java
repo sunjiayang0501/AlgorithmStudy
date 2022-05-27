@@ -15,5 +15,9 @@ public class Main {
             System.out.print(student + " ");
         }
         System.out.println();
+
+        int n = 10000;
+        Integer[] arr2 = ArrayGenerator.generateRandomArray(n, n);
+        SortingHelper.sortTest("SelectionSort", arr2);
     }
 }
